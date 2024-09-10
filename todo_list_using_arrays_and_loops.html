@@ -2,13 +2,18 @@
 <html>
     <head>
         <title>Arrays and Loops</title>
+        <link rel="stylesheet" href="css/todo_list.css">
     </head>
     <body>
         <p>Todo List</p>
-        <input placeholder="Todo name" class="js-name-input">
-        <button onclick = "addTodo();">Add</button>
-        <div class = "js-add-todo">
-
+        <div class="css-add-todo">
+            <input placeholder="Todo name" class="js-name-input">
+            <input type="date" class="js-due-date-input">
+            <button onclick = "addTodo();" class="css-add">Add</button>
+        </div>
+        
+        <div class = "js-add-todo css-add-todo">
+            
         </div>
         <script src = "js/todo_list.js"></script>
     </body>
